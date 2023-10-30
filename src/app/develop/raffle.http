@@ -1,0 +1,28 @@
+GET http://localhost/api/v1/raffles
+
+###
+
+POST http://localhost/api/v1/login HTTP/1.1
+content-type: application/json
+Accept: application/json
+
+{
+    "username":"cicero@email.com",
+    "password":"12345678"
+}
+
+###API LOCAL NEXT###
+POST http://localhost:3000/api/auth/
+content-type: application/json
+Accept: application/json
+
+{
+    "username":"cicero@email.com",
+    "password":"12345678"
+}
+###
+
+GET http://localhost/api/v1/raffle
+content-type: application/json
+Accept: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMWJkNWI2OTMxODc1N2VkMzNkYjIxZDMzYzdlY2QwODY3YzBiZGYzMjUxMDMzNDFiNjlmOGMyYjdjY2NhYmYwM2Q3ZGU4NjdlOGRjNzhjN2YiLCJpYXQiOjE2OTg2MDM4NTUuNDg5MjkyLCJuYmYiOjE2OTg2MDM4NTUuNDg5NDcsImV4cCI6MTczMDIyNjI1NS40NDYwOTUsInN1YiI6IjEiLCJzY29wZXMiOltdfQ.S0d49wAdvpcn1xnAxSKwEsAhX0UenH2El86_fY211bnzMLWkfliAADiwhIYnqsO-qISvKSEQ9zNhB6hfCDFalwec6NEXRXiAv7EF8rSqIWp0d0KYl7ViKphiCl2WMavyvZ_o1ynhU6gb0SOGTr-u0EXVxTB6LjCN15EHecJXEJXZGXEu57pt5vPpWW5Rns90yBb5h81YhbQbbclM_GGQqJI7zdMCjsfb2rG4mC04FbOZxLFyPKfPEOMiBw8-lUCDgWRLm2O6zwivXZAQ5vXRd0L_rk1ZKSoIkojk_sjXckLTL9z05YXgEcaAT7IjszBo4KNL9rCphwjVFt-krkmzoDgZxG3cxS6c41cKsV0fDlzIYZVeMXu57sj7lUVbXaP7kfeKm6ydEtSZBm01v4oB-QYx3r-PVvz126-nK5_RG5lJLqZNM6giK2-tleBpxdBG3oW4fIDi3R54-iu5RTRqgAG1Ex5m-J3ivNAO9xcJIYRlM5Y9jJrZHGuozK7bXW5AlNuj1dBo8KmWtmrdMd74Q1aq9tIxKSSa8pDNEImxYPDzQWT75pzk46kDZqYhVXwScArXZMoBQfWmGFuni74y61ZOQLccx8pDdIAbSADZXrvIMT5422Yx5dcYbDRvI5uNakBMNByr05Fz_XRBA-_vCt9R41Zz32oyB1LwluOt5wo
