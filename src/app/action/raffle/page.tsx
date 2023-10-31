@@ -1,7 +1,6 @@
 
 import { GET_RAFFLES } from "@/app/api/raffles"
 import { Raffle } from "@/app/types/raffle"
-import { useEffect, useState } from "react"
 
 export default async function Raffle() {
 
