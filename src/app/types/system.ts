@@ -21,3 +21,9 @@ export type RFLogin = {
     username: string;
     password: string;
 }
+
+export type RFComponentProps = {
+    style: string;
+    name?: string;
+    children: string
+}
